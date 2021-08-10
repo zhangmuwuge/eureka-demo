@@ -15,4 +15,5 @@ eureka:
     fetch-registry: true
     service-url:
       #Eureka 注册中心的地址，多个地址有逗号隔开
-      defaultZone: http://cluster2:7002/eureka,http://cluster3:7003/eureka
+      #defaultZone: http://cluster2:7002/eureka,http://cluster3:7003/eureka
+      defaultZone: http://cluster1:7001/eureka
